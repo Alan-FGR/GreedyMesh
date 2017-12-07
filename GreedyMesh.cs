@@ -1,4 +1,5 @@
-//NOTE: this code was ported to C#, original: https://github.com/mikolalysenko/mikolalysenko.github.com/blob/gh-pages/MinecraftMeshes/js/greedy.js
+// NOTE: this code was ported to C# by me
+// original: https://github.com/mikolalysenko/mikolalysenko.github.com/blob/gh-pages/MinecraftMeshes/js/greedy.js
 
 using System;
 using System.Collections.Generic;
