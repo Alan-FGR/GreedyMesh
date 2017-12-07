@@ -31,7 +31,9 @@ public static class GreedyMesh
             var n = 0;
             for(x[v]=0; x[v]<dimensions[v]; ++x[v])
             for(x[u]=0; x[u]<dimensions[u]; ++x[u]) {
-               mask[n++] = (0 <= x[d] && f(x[0], x[1], x[2])) != (x[d] < dimensions[d] - 1 && f(x[0] + q[0], x[1] + q[1], x[2] + q[2]));
+               mask[n++] =
+                  (0 <= x[d] && f(x[0], x[1], x[2])) !=
+                  (x[d] < dimensions[d] - 1 && f(x[0] + q[0], x[1] + q[1], x[2] + q[2]));
                }
             //Increment x[d]
             ++x[d];
